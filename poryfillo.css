@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+
+height: 100vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+display: flex;
+gap: 40px;
+}
+.header1{
+    width: 50%;height: 100vh;
+    font-family: monospace;
+    color: black;
+    font-weight: 500;
+    align-content: center;
+}
+.header2{
+     width: 50%;height: 100vh;
+}
+.my-work{
+height: 100vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+}
+.header2 img{
+    width: 50%;height: 80vh;
+    border-radius: 40px;
+    border-top-color: darkred;border-bottom-color: darkred;
+    border: #1d1c1c;
+}
+.card{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    height: 57vh;
+padding: 5px;
+border: solid darkred;
+ transition: 0.4s ease;    /* smooth effect */
+  cursor: pointer;          /* pointer on hover */
+  border-top-left-radius: 67px;
+   border-bottom-left-radius: 67px;
+    border-bottom-right-radius: 67px;
+    border-top-right-radius: 67px;
+    border-top-color: blue;
+}
+.card:hover {
+  transform: translateY(-20px);  /* card moves up */
+  box-shadow: 0 8px 20px  rgb(78, 12, 12); /* shadow effect */
+  background: #1d1c1c;              /* slightly lighter bg */
+  border: solid red;
+}
+.card-img-top{
+    height: 30vh;
+     border-top-left-radius: 67px;
+   border-bottom-left-radius: 67px;
+    border-bottom-right-radius: 67px;
+      border-top-right-radius: 67px;
+}
+
+.skill{
+    height: 100vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+display: flex;
+}
+.myskill{
+    display: block;
+    width: 10%;height: 60vh;
+    margin-top: 50px;
+}
+.myskil2{
+    width: 80%;height: 60vh;
+    align-content: center;
+}
+.progress{
+    margin: 90px;
+
+}
+.MY{
+    width: 15%;
+    height: 60vh;
+     align-content: center; 
+     color: black;
+}
+.overall{
+      height: 110vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/* contact */
+.face{
+    height: 110vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+align-content: center;
+align-items: center;
+text-align: center;
+}
+.face h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 3rem;text-shadow: 2px 2px 6px oldlace;
+}
+.CONTACT{
+     height: 70vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+}
+.gmail{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: solid darkred;
+    align-content: center;
+
+}
+.gmail:hover {
+  transform: translateY(-5px);  /* card moves up */
+  box-shadow: 0 8px 20px rgb(78, 12, 12); /* shadow effect */
+  background: #1d1c1c;              /* slightly lighter bg */
+  border: solid red;
+  font-size: 25px;
+  font-weight: 400;
+   text-shadow: 0px 8px 20px rgb(54, 2, 2);
+}
+.gmail h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+   align-content: center;
+   color: white;
+   
+}
+
+
+
+
+/* services */
+.my-services{
+         height: 100vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Service{
+           height: 40vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 40px;
+}
+.call{
+      height: 50vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.calling{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.calling:hover{
+      transform: translateY(-5px);  /* card moves up */
+  box-shadow: 0 8px 20px rgb(78, 12, 12); /* shadow effect */
+  background: #1d1c1c;              /* slightly lighter bg */
+  border: solid red;
+  color: darkred;
+ transition: 1s;
+}
+.Service-Card:hover{
+     box-shadow: 0 8px 20px rgb(78, 12, 12); /* shadow effect */
+      transition: 0s;   /* card speed */
+       transform: translateX(-5px);  /* card moves left */
+}
+.Service-Card-1:hover{
+     box-shadow: 0 8px 20px rgb(78, 12, 12); /* shadow effect */
+      transition: 0s;  /* card speed */
+       transform: translateX(5px);  /* card moves right */
+}
+/* nav */
+
+.dropdown-menu{
+    background-color:  #1d1c1c;
+    
+}
+.dropdown-menu:hover{
+background-color:  darkred;
+color: #1d1c1c;
+}
+.dropdown-item:hover{
+    background-color: blue;
+    color: red;
+    font-weight: 800;
+}
+
+
+
+
+
+
+/* about--me */
+.about-me{
+          height: 110vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+}
+.about-me-1{
+display: flex;
+padding: 40px;
+gap: 30px;  
+}
+.who-1{
+    padding: 15px;
+    background-color: #1d1c1c;
+    color: white;
+    height: 40vh;
+    width: 60%;
+    align-content: center;
+    border-radius: 40px;
+}
+.who-2{
+    padding: 15px;
+    background-color: #1d1c1c;
+    color: white;
+    height: 35vh;
+    width: 40%;
+    align-content: center;
+     border-radius: 40px;
+
+}
+.about-me-2{
+ display: flex;
+ padding-left: 40px;
+ padding-right: 40px;
+ gap: 40px;
+}
+.who-3{
+      padding: 40px;
+ background-color: #1d1c1c;
+  height: 45vh;
+   border-radius: 40px;
+   color: white;
+   width: 70%;
+}
+.who-4{
+        padding: 40px;
+ background-color: #1d1c1c;
+  height: 45vh;
+   border-radius: 40px;
+   color: white;
+   width: 30%;
+}
+.who-4 a{
+    margin-top: 40px;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.who-4 a:hover{
+       transform: translateY(-5px);  /* card moves up */
+  box-shadow: 0 8px 20px rgb(78, 12, 12); /* shadow effect */
+  background: #1d1c1c;              /* slightly lighter bg */
+  border: solid red;
+  color: darkred;
+ transition: 1s;
+}
+
+hr{
+    width: 70%;
+    color: red;
+    pad: 10px;
+}
+.more{
+          height: 20vh;width: 100%;
+background-image: url(image/grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 16px;
+}
+.bbb{
+    width: 10%;
+}
